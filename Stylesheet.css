@@ -1,0 +1,71 @@
+body {
+    background-color:  rgba(217, 180, 167, 0.5);
+}
+* {
+    margin: 20px;
+}
+.visually-hidden {
+    position: absolute;
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+img {
+    float: left;
+    height: 25%;
+    width: 25%;
+    border-radius: 20px;
+}
+
+.clear-fix {
+    display: block;
+    clear: both;
+}
+
+h1 {
+    font-family: Verdana;
+    color: #2E4159
+}
+h2 {
+    font-family: Verdana;
+    color: #2E5946
+   
+}
+h3 {
+    font-family: Verdana;
+    color: #2E5946 
+}
+.container1 {
+    margin-top: 85px
+}
+
+@media screen and (max-width: 980px) {
+    .myimage {
+        display: block;
+        width: 100%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    * {
+        text-align: center;
+    }
+    li {
+        text-align: left;
+    }
+
+}
+
+p {
+    text-align: justify;
+}
+
+#final-line {
+    border: 2px solid #13005E;
+}
